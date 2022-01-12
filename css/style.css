@@ -23,8 +23,10 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 36px 285px 21px;
-
+    margin-top: 36px;
+    margin-bottom: 21px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
