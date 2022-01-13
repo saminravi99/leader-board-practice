@@ -385,10 +385,15 @@ header{
 }
 .right-side-header{
     margin-right: 15px;
+    margin-left: 45px;
 }
 
 .nav-items ul li{
-    margin-right:20px;
+    margin-right:7px;
+}
+
+.profile{
+    margin-left: 10px;
 }
 
 section{
