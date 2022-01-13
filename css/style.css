@@ -249,7 +249,7 @@ hr{
 .second-section-title{
     margin-top: 23px;
     margin-left: 33px;
-    margin-bottom: 24px;
+    margin-bottom: 10px;
 
 }
 
@@ -362,3 +362,78 @@ hr{
 }
 
 /* Second Section Ends */
+
+
+
+/* Media Queries */
+
+@media  only screen and (max-width: 688px) {
+    
+
+header{
+    width: 100%;
+    justify-content: space-between;
+} 
+    
+.border-bottom{
+
+     transform: translateX(-50px) translateY(0px);
+}
+
+.left-side-header{
+    margin-left: 15px;
+}
+.right-side-header{
+    margin-right: 15px;
+}
+
+.nav-items ul li{
+    margin-right:20px;
+}
+
+section{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+
+}
+.section-title{
+    text-align: center;
+}
+
+
+.second-section{
+    height: 100%;
+}
+
+.second-section-title{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.top-players{
+
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+}
+
+.player{
+    flex-direction: column;
+}
+.top-blogs{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.latest-courses{
+    grid-template-columns: repeat(1,1fr);
+}
+
+.course-box{
+    margin-bottom: 30px;
+}
+
+
+
+}
